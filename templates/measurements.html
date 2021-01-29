@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #E7E4EB;
+            font-family: Arial, sans-serif;
+            color: #1f2b6c;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        .measurement {
+            text-align: center;
+            margin-top: 10%;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+<div class="measurement">
+    <h1>Closest measurement station: <br>{{station_location}}</h1>
+
+    <p>Current state of weather:</p> {{weather_state_name}}
+
+    <p>Current temperature:</p> {{cur_temp}}&#8451;
+
+    <p>Date of measurement:</p>{{date}}
+
+    <p>Minimum temperature:</p> {{min_temp}}&#8451;
+
+    <p>Maximum temperature:</p> {{max_temp}}&#8451;
+
+    <p>Humidity: </p> {{humidity}}%
+</div>
+</body>
+</html>
